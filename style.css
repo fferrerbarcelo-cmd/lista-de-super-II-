@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f7f0;
+    color: #243b2b;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icono {
+    font-size: 45px;
+}
+
+h1 {
+    color: #247342;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+header p {
+    color: #6b7d70;
+}
+
+.tarjeta {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(30, 80, 45, 0.08);
+}
+
+h2 {
+    color: #247342;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.descripcion {
+    color: #6b7d70;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f0f7f0;
+    padding: 13px 15px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    border-left: 4px solid #43a467;
+}
+
+.resultado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #247342;
+    color: white;
+    padding: 17px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.resultado strong {
+    font-size: 24px;
+}
+
+.operacion {
+    padding: 12px 0;
+    border-bottom: 1px solid #e6eee7;
+    color: #526458;
+    line-height: 1.5;
+}
+
+.operacion:last-child {
+    border-bottom: none;
+}
+
+.operacion strong {
+    color: #247342;
+}
+
+footer {
+    text-align: center;
+    color: #849387;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 25px 14px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .tarjeta {
+        padding: 20px;
+    }
+}
